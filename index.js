@@ -1,7 +1,7 @@
 const express=require('express');
 const todorouter=require('./routes/todo');
 const {connectMongodb}=require('./connection')
-const PORT=8000;
+const PORT=5000;
 
 const app=express();
 connectMongodb("mongodb://127.0.0.1:27017/Todolist");
